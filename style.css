@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+.main {
+    height: 100%;
+    width: 100%;
+    background: #F8FAB4;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.page1 {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    overflow-x: auto;
+
+}
+
+.page1 .section1 {
+    position: fixed;
+    width: 10%;
+    display: flex;
+}
+
+.page1 .section1 .menu {
+    display: flex;
+    flex-direction: column;
+    margin: 4vh;
+    padding: 0 10px;
+}
+
+.page1 .section1 .menu i {
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+.page1 .section1 .vl {
+    margin-top: 3vh;
+    border-left: 3px solid #111;
+    height: 94vh;
+}
+
+.page1 .section2 {
+    position: absolute;
+    left: 10%;
+    margin-top: 2vh;
+    width: 90%;
+}
+
+.page1 .section2 .nav {
+    width: 90%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.page1 .section2 .nav h1 {
+    font-size: 5vh;
+    font-family: system-ui;
+    font-weight: 600;
+    color: rgb(117, 49, 9);
+}
+
+.page1 .section2 .nav button {
+    font-size: 2vh;
+    border: none;
+    background-color: rgb(154, 72, 23);
+    padding: 2vh 3.5vh;
+    margin-right: 2vh;
+    color: white;
+    font-weight: 600;
+}
+
+#heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    font-size: 22vh;
+    top: 25%;
+    left: 18%;
+    color: rgb(83, 37, 11);
+    line-height: 0.8;
+    transform: scale(1, 1.5);
+}
+
+.page1 #minicamera {
+    height: 20vh;
+    width: 23vh;
+    position: absolute;
+    top: 8%;
+    rotate: -17deg;
+    right: 20%;
+    opacity: 0.8;
+}
+
+.camera {
+    height: 60%;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    rotate: 30deg;
+    z-index: 10;
+
+}
+
+.camera img {
+    height: 100%;
+    filter: drop-shadow(100px 95px 39px rgba(0, 0, 0, 0.8));
+}
+
+.page2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.page2 .section1 {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    top: 85%;
+}
+
+.page2 .section1 h3 {
+    font-family: cursive;
+    padding-bottom: 10px;
+}
+
+.page2 .section1 h1 {
+    line-height: 0.9;
+    font-size: 15vh;
+    padding-bottom: 15px;
+    font-family: fantasy;
+    letter-spacing: 0.2rem;
+}
+
+.page2 .section1 p {
+    font-family: cursive;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.page2 .section1 button {
+    border: none;
+    background-color: black;
+    color: white;
+    width: max-content;
+    padding: 14px 25px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.page2 .section2 {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 85%;
+}
+
+.page2 .section2 .sec2content {
+    padding: 15px;
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.page2 .section2 .sec2content h3 {
+    font-family: fantasy;
+    font-weight: 400;
+}
+
+.page2 .section2 .sec2content h4 {
+    font-size: 10px;
+    padding-top: 3px;
+}
+
+.page2 .section2 .sec2content .vl {
+    margin-top: 10px;
+    border: 1px solid #111;
+    width: 100%;
+}
+
+.sec2content #sec2content1 {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+
+.sec2content #sec2content1 h1 {
+    font-size: 10vh;
+}
+
+.sec2content #sec2content1 span {
+    font-size: 6vh;
+}
+
+.sec2content #sec2content1 p {
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.page3 {
+    margin-left: 10%;
+    height: 100%;
+    width: 90%;
+    overflow-x: hidden;
+}
+
+.page3 h1 {
+    font-size: 25vh;
+    transform: scale(1, 1.45);
+    color: rgb(83, 37, 11);
+}
+
+.page3 .p3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page3 .page3img {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.page3img .vinimg {
+    width: 100%;
+    object-fit: cover;
+}
+
+.vinimg img {
+    width: 100%;
+}
+
+.page3img h2 {
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 400;
+}
+
+.page3content {
+    width: 40%;
+}
+
+.page3content p {
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: cursive;
+    line-height: 1.2;
+}
+
+.page3content h2 {
+    font-size: 4vh;
+    font-family: fantasy;
+    margin-top: 20px;
+}
+
+.page4 {
+    margin-left: 10%;
+    position: relative;
+    height: 100vh;
+    width: 90%;
+}
+
+.page4 .p4img {
+    width: 18%;
+    object-fit: cover;
+    background-color: #f2f3c9;
+    padding: 15px;
+    box-shadow: 20px 26px 30px 5px rgba(0, 0, 0, 0.69);
+}
+
+.p4img img {
+    width: 100%;
+    height: 20%;
+}
+
+.page4 #img1 {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    rotate: -12deg;
+}
+
+.page4 #img2 {
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    rotate: -8deg;
+}
+
+.page4 #img3 {
+    position: absolute;
+    left: 20%;
+    top: 55%;
+    rotate: 52deg;
+}
+
+.page5 {
+    margin-left: 10%;
+    height: 100vh;
+    width: 90%;
+}
+
+.page5 .p5h {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 8%;
+}
+
+.p5h h3 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: cursive;
+}
+
+.p5h h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    transform: scale(1, 1.6);
+    margin-top: 10px;
+    /* font-family: cursive; */
+}
+
+.cameracontent {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cameracontent .camerapng {
+    width: 25%;
+}
+
+.cameracontent .camerapng img {
+    width: 100%;
+    filter: drop-shadow(70px 50px 39px rgba(0, 0, 0, 0.8));
+}
+
+.cameracontent .item1 {
+    margin-top: 11vh;
+    width: 52vh;
+}
+
+.cameracontent .item2 {
+    width: 60vh;
+}
+
+.page6 {
+    height: 100vh;
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+}
+
+.page6 .p6 {
+    width: 40%;
+    margin-top: 8%;
+}
+
+.page6 .p6 img {
+    padding: 15px;
+    background-color: white;
+    height: 70vh;
+    object-fit: contain;
+}
+
+.page6 .p6content {
+    width: 60%;
+    margin-top: 8%;
+}
+
+.p6content h3 {
+    font-size: 15px;
+    font-weight: 800;
+    font-family: cursive;
+}
+
+.p6content h1 {
+    font-size: 8rem;
+    line-height: 0.9;
+    font-family: fantasy;
+    margin-top: 5px;
+}
+
+.p6content p {
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-right: 25px;
+}
