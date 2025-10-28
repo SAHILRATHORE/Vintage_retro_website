@@ -9,7 +9,7 @@
 **Vintage** is a creative web experience designed to showcase smooth scroll-based animations and cinematic transitions using **GSAP**.  
 Every scroll reveals dynamic camera movements, fade-ins, and immersive storytelling — creating a flowing, movie-like experience.
 
-🔗 **Live Demo:** [Vintage Project](https://lnkd.in/dC3PRQ2X)
+🔗 **Live Demo:** [Vintage Project](https://srvintage.netlify.app)
 
 ---
 
@@ -69,7 +69,7 @@ If you’re passionate about **creative web design**, **animation**, or **GSAP**
 
 📧 **Connect with me:**  
 - 🌐 [LinkedIn — Sahil Rathore](https://www.linkedin.com/in/sahilrathore7/)  
-- 💻 [Live Demo](https://lnkd.in/dC3PRQ2X)
+- 💻 [Live Demo](https://srvintage.netlify.app/)
 
 ---
 
